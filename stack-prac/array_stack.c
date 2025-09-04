@@ -17,7 +17,6 @@ int main()
 {
     push(11);
     push(22);
-    push(33);
     push(44);
     push(55);
     display();
@@ -31,7 +30,7 @@ int main()
 void display()
 {
     printf("Stack:\t");
-    for (int i = 0; i < SIZE; i++)
+    for (int i = 0; i < ptr; i++)
     {
         printf("%i\t", array[i]);
     }
