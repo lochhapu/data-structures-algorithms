@@ -42,6 +42,7 @@ int dequeue()
     if (is_empty())
     {
         printf("Cannot dequeue! Queue is empty.\n");
+        return -1;
     }
     else
     {
@@ -62,7 +63,7 @@ int peek()
 {
     if (is_empty())
     {
-        printf("Cannot peak! Queue is empty.\n");
+        printf("Cannot peek! Queue is empty.\n");
         return -1;
     }
     else
