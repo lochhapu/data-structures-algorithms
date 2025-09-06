@@ -20,4 +20,4 @@ Free memory:
 
 Make sure to initilize list to null when you make it, otherwise errors pop up.
 
-I will have to make an abstract list data type based on linked list eventually.
+I will make an abstract list data type based on linked list eventually.
