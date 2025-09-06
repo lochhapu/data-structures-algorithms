@@ -9,5 +9,7 @@ Data structures implemented:
   - Stack:
     * Array stack [✅]
     * Singly linked list stack [TODO]
+  - Linked list:
+    * Singly linked list [✅]
 
-Will focus on stack and queue for now, linked list coming soon!
+Added these three for now. I don't know if I will try to implement doubly and circular linked lists just yet. I will focus on sorting algorithms after this.
