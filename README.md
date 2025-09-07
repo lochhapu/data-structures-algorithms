@@ -11,16 +11,16 @@ Along the way, I’ll also share my thoughts and (probably less-than-optimal �
 
 ## ✅ Implemented / Planned
 
-### 🔹 Queue
+#### 🔹 Queue
 - [x] Naive linear queue  
 - [ ] Proper linear queue  
 - [ ] Circular queue  
 
-### 🔹 Stack
+#### 🔹 Stack
 - [x] Array stack  
 - [ ] Singly linked list stack  
 
-### 🔹 Linked List
+#### 🔹 Linked List
 - [x] Singly linked list  
   *(not sure yet if I’ll go into doubly or circular linked lists)*  
 
