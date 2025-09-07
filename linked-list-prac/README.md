@@ -5,9 +5,9 @@ Inserting:
 	- insert_end(&list, x)
 	
 Removing:
-	- rem_beg()
-	- rem_end()
-	- rem_value(x) -------- TODO!
+	- rem_beg(&list)
+	- rem_end(&list)
+	- rem_value(&list, x)
 
 Searching:
 	- search_list(list, x)
@@ -19,5 +19,5 @@ Free memory:
 	- free_list(list)
 
 Make sure to initilize list to null when you make it, otherwise errors pop up.
-
 I will make an abstract list data type based on linked list eventually.
+Maybe I should add a remove all of value function too!

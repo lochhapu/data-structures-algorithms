@@ -19,12 +19,15 @@ void free_list(Node *head);
 int main(void)
 {
     Node *numbers = NULL; // Always init to null
-    insert_end(&numbers, 77);
-    insert_end(&numbers, 78);
-    insert_end(&numbers, 79);
-    insert_end(&numbers, 60);
+    insert_end(&numbers, 11);
+    insert_end(&numbers, 22);
+    insert_end(&numbers, 33);
+    insert_end(&numbers, 44);
+    insert_end(&numbers, 55);
     print_list(numbers);
-    rem_value(&numbers, 79);
+    printf("Do stuff...\n");
+    rem_value(&numbers, 121);
+    print_list(numbers);
     free_list(numbers);
 }
 
@@ -154,8 +157,40 @@ void rem_end(Node **head)
     ptr->next = NULL;
 }
 
-// Removes value you specified
+// Removes first occurrence of value you specified
 void rem_value(Node **head, int value)
 {
+    // Empty list
+    if (*head == NULL)
+    {
+        printf("List is empty.\n");
+        return;
+    }
 
+    // First node has value
+    Node *ptr = *head;
+    if (ptr->value == value)
+    {
+        Node *tmp = ptr->next;
+        free(ptr);
+        *head = tmp;
+        return;
+    }
+
+    // Traverse the list
+    Node *before = NULL;
+    Node *after = NULL;
+    while (ptr->next != NULL)
+    {
+        if (ptr->next->value == value)
+        {
+            before = ptr;
+            after = ptr->next->next;
+            free(ptr->next);
+            before->next = after;
+            return;
+        }
+        ptr = ptr->next;
+    }
+    printf("Value was not found.\n");
 }
