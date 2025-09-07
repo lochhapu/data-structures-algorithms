@@ -1,3 +1,14 @@
-This is a 'naive' linear queue. It relies on shifting values to the left (towards index 0) when dequeue() is called. Not an efficient implementation as dequeue() will be O(n).
+## Naive Linear Queue (Array)
 
-It is not efficient of course, but it is what I came up with when I first thought of implementing an array queue, so I will leave it here.
+This is a **naive** implementation of a linear queue using arrays.  
+It relies on shifting values left (towards index `0`) after every `dequeue()`.  
+
+⚠️ **Note:** This is not an efficient queue — `dequeue()` takes **O(n)** time.  
+I wrote it as my *first attempt* at building a queue from scratch, so I’m keeping it here for learning/reference.
+
+### Features
+- `enqueue(x)` → Adds value `x` to the queue (O(1))  
+- `dequeue()` → Removes the first element, shifts the rest left (O(n))  
+- `peek()` → Returns the first element without removing it (O(1))  
+- `is_full()` and `is_empty()` checks  
+- `display()` → Prints the current queue contents  
