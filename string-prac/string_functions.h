@@ -3,6 +3,7 @@
 
 #include <stdlib.h>
 #include <stdbool.h>
+#include <stddef.h>
 
 int string_length(const char *s);
 bool string_equal(char *s1, char *s2);
@@ -11,9 +12,13 @@ bool check_palindrome(char *s1); // TODO FIX
 bool has_substring(char *str, char *substr); // TODO - IMPLEMENT
 
 // Gets the length of the string
-int string_length(const char *s)
+size_t string_length(const char *s)
 {
-    int length = 0;
+    if (s == NULL)
+    {
+        return 0;
+    }
+    size_t length = 0;
     while (*s != '\0')
     {
         length++;
