@@ -4,8 +4,10 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
+#define LOOP while (1)
+
 int string_length(const char *s);
-bool string_compare(char *s1, char *s2);
+bool string_equal(char *s1, char *s2);
 char *reverse_string(char *s);
 bool check_palindrome(char *s1);
 
@@ -22,21 +24,16 @@ int string_length(const char *s)
 }
 
 // This function compares two strings
-// NOTE: this is not the most efficient method, can be better
-bool string_compare(char *s1, char *s2)
+bool string_equal(char *s1, char *s2)
 {
-    int length = string_length(s1);
-    if (length != string_length(s2))
-    {
-        return false;
-    }
-
-    for (int i = 0; i < length; i++)
+    int i = 0;
+    while (!(s1[i] == '\0' && s2[i] == '\0'))
     {
         if (s1[i] != s2[i])
         {
             return false;
         }
+        i++;
     }
     return true;
 }
@@ -60,7 +57,7 @@ char *reverse_string(char *s)
 // Note: have to edit reverse_string and return to this, there is a memory leak!
 bool check_palindrome(char *s1)
 {
-    if (string_compare(s1, reverse_string(s1)))
+    if (string_equal(s1, reverse_string(s1)))
     {
         return true;
     }
