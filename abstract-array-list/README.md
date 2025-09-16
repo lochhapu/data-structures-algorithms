@@ -8,7 +8,7 @@ It was built as a learning exercise to understand how dynamic arrays work under 
   - Uses `malloc/realloc/free` instead of modern C++ memory management.
   - Resizes on every insertion (`O(n)` per `push` instead of amortized `O(1)`).
   - Shifting elements is handled manually in a non-standard way.
-- Written in a **C-style C++**, which means it won’t handle complex types correctly (constructors/destructors aren’t called).
+- Written in a **C-style C++**, which means it won’t handle complex types correctly
 - Error handling uses `exit()`, which is not ideal for production use.
 - No copy/move constructors or assignment operators (not rule-of-five compliant).
 
