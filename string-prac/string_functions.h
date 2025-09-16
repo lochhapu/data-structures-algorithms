@@ -4,12 +4,11 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
-#define LOOP while (1)
-
 int string_length(const char *s);
 bool string_equal(char *s1, char *s2);
-char *reverse_string(char *s);
-bool check_palindrome(char *s1);
+char *reverse_string(char *s); // TODO FIX
+bool check_palindrome(char *s1); // TODO FIX
+bool has_substring(char *str, char *substr); // TODO - IMPLEMENT
 
 // Gets the length of the string
 int string_length(const char *s)
@@ -23,7 +22,7 @@ int string_length(const char *s)
     return length;
 }
 
-// This function compares two strings
+// This function compares two strings for equality
 bool string_equal(char *s1, char *s2)
 {
     int i = 0;
