@@ -30,6 +30,18 @@ size_t string_length(const char *s)
 // This function compares two strings for equality
 bool string_equal(const char *s1, const char *s2)
 {
+    if (s1 == NULL || s2 == NULL)
+    {
+        if (s1 == NULL && s2 == NULL)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+
     int i = 0;
     while (1)
     {
