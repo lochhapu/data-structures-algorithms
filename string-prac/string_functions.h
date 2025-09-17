@@ -5,8 +5,8 @@
 #include <stdbool.h>
 #include <stddef.h>
 
-int string_length(const char *s);
-bool string_equal(char *s1, char *s2);
+size_t string_length(const char *s);
+bool string_equal(const char *s1, const char *s2);
 char *reverse_string(char *s); // TODO FIX
 bool check_palindrome(char *s1); // TODO FIX
 bool has_substring(char *str, char *substr); // TODO - IMPLEMENT
@@ -28,18 +28,24 @@ size_t string_length(const char *s)
 }
 
 // This function compares two strings for equality
-bool string_equal(char *s1, char *s2)
+bool string_equal(const char *s1, const char *s2)
 {
     int i = 0;
-    while (!(s1[i] == '\0' && s2[i] == '\0'))
+    while (1)
     {
-        if (s1[i] != s2[i])
+        if (s2[i] != s1[i])
         {
             return false;
         }
-        i++;
+        else if (s1[i] == '\0')
+        {
+            return true;
+        }
+        else
+        {
+            i++;
+        }
     }
-    return true;
 }
 
 // This function will reverse the string
