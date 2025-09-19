@@ -1,0 +1,22 @@
+// Insert
+Function insert(root, value):
+	If root is NULL:
+		Create node
+		return
+	Else if root.value is less than value:
+		Insert(root.right)
+	Else if root.value is greater than value:
+		Insert(root.left)
+	Else:
+		return
+
+// Search
+Function search(root, value):
+	if root is NULL:
+		return false
+	else if root.value > value:
+		search(root.left)
+	else if root.value < value:
+		search(root.right)
+	else:
+		return true
