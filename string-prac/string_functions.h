@@ -7,9 +7,9 @@
 
 size_t string_length(const char *s);
 bool string_equal(const char *s1, const char *s2);
-void string_copy(const char *src, char *dest); // TODO - IMPLEMENT
-void reverse_string(char *s); // TODO - IMPLEMENT
-bool check_palindrome(char *s1); // TODO - TEST
+void string_copy(const char *src, char *dest); // TODO - check efficiency
+void reverse_string(char *s); // TODO - works but inefficient
+bool check_palindrome(char *s1); // Depends on reverse_string()
 bool has_substring(char *str, char *substr); // TODO - IMPLEMENT
 
 // Gets the length of the string
@@ -74,9 +74,26 @@ bool string_equal(const char *s1, const char *s2)
     }
 }
 
+// Checks for substring
+bool has_substring(char *str, char *sub)
+{
+
+}
+
+// Reverses given string
 void reverse_string(char str[])
 {
-    // ...
+    int length = string_length(str);
+    char *revstr = malloc(length + 1);
+
+    for (int i = 0, j = length - 1; i < length; i++, j--)
+    {
+        revstr[i] = str[j];
+    }
+
+    revstr[length] = '\0';
+    string_copy(revstr, str);
+    free(revstr);
 }
 
 // This function checks for palindrome

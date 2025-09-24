@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "string_functions.h"
 
+/* Demo section available, uncomment and comment out to demo */
 int main(void)
 {
     // String equality
@@ -13,9 +14,9 @@ int main(void)
     // printf("NULL & NULL: %i\n", string_equal(NULL, NULL));
 
     // Reverse string
-    // char *cat = "cat";
-    // char *smiles = "smiles";
-    // char *catnip = "pintac";
+    // char cat[] = "cat";
+    // char smiles[] = "smiles";
+    // char catnip[] = "pintac";
     // reverse_string(cat);
     // reverse_string(smiles);
     // reverse_string(catnip);
@@ -25,8 +26,8 @@ int main(void)
     // printf("pintac -> %s\n", catnip);
 
     // String copying
-    char *src = "Hi!";
-    char dest1[10];
-    string_copy(src, dest1);
-    printf("%s\n", dest1);
+    // char *src = "Hi!";
+    // char dest1[10];
+    // string_copy(src, dest1);
+    // printf("%s\n", dest1);
 }
