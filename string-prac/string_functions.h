@@ -5,12 +5,21 @@
 #include <stdbool.h>
 #include <stddef.h>
 
+char *dynamic_string(const char *str);
 size_t string_length(const char *s);
 bool string_equal(const char *s1, const char *s2);
 void string_copy(const char *src, char *dest); // TODO - check efficiency
 void reverse_string(char *s); // TODO - works but inefficient
 bool check_palindrome(char *s1); // Depends on reverse_string()
 bool has_substring(char *str, char *substr); // TODO - IMPLEMENT
+
+// Returns string created on heap
+char *dynamic_string(const char *str)
+{
+    char *returnstr = malloc(string_length(str) + 1);
+    string_copy(str, returnstr);
+    return returnstr;
+}
 
 // Gets the length of the string
 size_t string_length(const char *s)
