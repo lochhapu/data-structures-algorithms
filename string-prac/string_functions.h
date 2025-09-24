@@ -7,7 +7,8 @@
 
 size_t string_length(const char *s);
 bool string_equal(const char *s1, const char *s2);
-char *reverse_string(char *s); // TODO - IMPLEMENT
+void string_copy(const char *src, char *dest); // TODO - IMPLEMENT
+void reverse_string(char *s); // TODO - IMPLEMENT
 bool check_palindrome(char *s1); // TODO - TEST
 bool has_substring(char *str, char *substr); // TODO - IMPLEMENT
 
@@ -28,6 +29,15 @@ size_t string_length(const char *s)
     }
 
     return length;
+}
+
+// Copies source string to destination
+void string_copy(const char *src, char *dest)
+{
+    for (int i = 0, n = string_length(src); i <= n; i++)
+    {
+        dest[i] = src[i];
+    }
 }
 
 // This function compares two strings for equality
@@ -62,6 +72,11 @@ bool string_equal(const char *s1, const char *s2)
             i++;
         }
     }
+}
+
+void reverse_string(char str[])
+{
+    // ...
 }
 
 // This function checks for palindrome
