@@ -1,49 +1,67 @@
-# Begineer to Intermediate Checklist for Data Structures
+# Beginner to Intermediate DSA Checklist
 
-## 1. Arrays (C and Python)
-[ ] C: Create, access, update, delete elements (using arrays and dynamic arrays)
-[ ] C: Traversal, Linear search, Bubble sort, Selection sort, Insertion sort
-[ ] Python: Same with lists
+A roadmap to practice Data Structures & Algorithms in C, Python, and Java.  
 
-## 2. Strings (C and Python)
-[ ] C: Length, Reverse, Palindrome, Substring search (naive) - using char arrays
-[ ] Python: Same using string methods and without methods (for practice)
+---
 
-## 3. Linked Lists (C and Java)
-[ ] C: Singly linked list (all operations), Doubly, Circular (optional)
-[ ] Java: Singly and Doubly (using classes)
+## 1. Arrays (C & Python)  
+- [ ] C: Create, access, update, delete (static & dynamic arrays with malloc)  
+- [ ] C: Traversal, Linear Search, Bubble Sort, Selection Sort, Insertion Sort  
+- [ ] Python: Same with lists (built-in and manual implementations)  
 
-## 4. Stacks (C and Java)
-[ ] C: Array-based and linked list-based, Applications (parentheses, postfix)
-[ ] Java: Linked list-based (using classes) and array-based (using arrays)
+---
 
-## 5. Queues (C and Java)
-[ ] C: Simple, Circular, Deque (array and linked list)
-[ ] Java: Using classes (linked list and array)
+## 2. Strings (C & Python)  
+- [ ] C: Length, Reverse, Palindrome, Substring search (naive) using char arrays  
+- [ ] Python: Same with string methods and manual implementations  
 
-## 6. Trees (C and Java)
-[ ] C: BST (insert, search, traversals, delete optional)
-[ ] Java: BST (object-oriented)
+---
 
-## 7. Hashing (C and Python)
-[ ] C: Hash table with separate chaining (linked lists)
-[ ] Python: Using dictionaries and also implementing a simple one (optional)
+## 3. Linked Lists (C & Java)  
+- [ ] C: Singly Linked List (all operations), Doubly, Circular (optional)  
+- [ ] Java: Singly and Doubly Linked Lists (using classes)  
 
-## 8. Recursion & Basic Algorithms (Python and C)
-[ ] Python: Factorial, Fibonacci, Towers of Hanoi, Binary search, Merge sort, Quick sort
-[ ] C: Binary search, Merge sort, Quick sort (on arrays)
+---
 
-# Learning Plan
-This plan covers two languages per topic and avoids overloading with three.
+## 4. Stacks (C & Java)  
+- [ ] C: Array-based and Linked List-based stacks  
+- [ ] C: Applications (parentheses matching, postfix evaluation)  
+- [ ] Java: Stacks with arrays and linked lists  
 
-# Intermediate Mastery
-Now, the milestone:
-[ ] Can implement array list (dynamic array) -> C (using malloc) and Python (list)
-[ ] Can implement linked list (singly & doubly) -> C and Java
-[ ] Can implement stack & queue (array + linked list) -> C and Java
-[ ] Can implement BST (insert, search, traversals) -> C and Java
-[ ] Can code and explain binary search -> Python and C
-[ ] Can code and explain merge sort & quicksort -> Python and C
-[ ] Familiar with hashing and recursion problems -> C and Python
+---
 
-After this, I can dive into more advanced data structures and algorithms, if it is useful to do so.
+## 5. Queues (C & Java)  
+- [ ] C: Simple Queue, Circular Queue, Deque (array + linked list)  
+- [ ] Java: Queues with arrays and linked lists  
+
+---
+
+## 6. Trees (C & Java)  
+- [ ] C: Binary Search Tree (insert, search, traversals, delete optional)  
+- [ ] Java: BST (object-oriented implementation)  
+
+---
+
+## 7. Hashing (C & Python)  
+- [ ] C: Hash table with Separate Chaining (linked lists)  
+- [ ] Python: Dictionaries (built-in) and custom hash table (optional)  
+
+---
+
+## 8. Recursion & Basic Algorithms (C & Python)  
+- [ ] Python: Factorial, Fibonacci, Towers of Hanoi, Binary Search, Merge Sort, Quick Sort  
+- [ ] C: Binary Search, Merge Sort, Quick Sort (on arrays)  
+
+---
+
+# Intermediate Mastery Milestones
+
+By completing the above, I should be able to:
+
+- [ ] Implement a Dynamic Array (ArrayList) -> C (malloc) and Python (list)  
+- [ ] Implement a Linked List (Singly & Doubly) -> C and Java  
+- [ ] Implement a Stack & Queue (Array + Linked List) -> C and Java  
+- [ ] Implement a BST (insert, search, traversals) -> C and Java  
+- [ ] Code and explain Binary Search -> Python and C  
+- [ ] Code and explain Merge Sort & Quick Sort -> Python and C  
+- [ ] Understand Hashing and common Recursion problems -> C and Python  
