@@ -5,13 +5,13 @@
 #include <stdbool.h>
 #include <stddef.h>
 
-char *dynamic_string(const char *str);
-size_t string_length(const char *s);
-bool string_equal(const char *s1, const char *s2);
-void string_copy(const char *src, char *dest); // TODO - check efficiency
-void reverse_string(char *s); // TODO - works but inefficient
-bool check_palindrome(char *s1); // Depends on reverse_string()
-bool has_substring(char *str, char *substr); // TODO - IMPLEMENT
+char *dynamic_string(const char *);
+size_t string_length(const char *);
+bool string_equal(const char *, const char *);
+void string_copy(const char *, char *); // TODO - check efficiency
+void reverse_string(char *); // TODO - works but inefficient
+bool check_palindrome(char *); // Depends on reverse_string()
+bool has_substring(char *, char *); // TODO - IMPLEMENT
 
 // Returns string created on heap
 char *dynamic_string(const char *str)
@@ -83,12 +83,6 @@ bool string_equal(const char *s1, const char *s2)
     }
 }
 
-// Checks for substring
-bool has_substring(char *str, char *sub)
-{
-
-}
-
 // Reverses given string
 void reverse_string(char str[])
 {
@@ -104,16 +98,5 @@ void reverse_string(char str[])
     string_copy(revstr, str);
     free(revstr);
 }
-
-// This function checks for palindrome
-// bool check_palindrome(char *s1)
-// {
-//     if (string_equal(s1, reverse_string(s1)))
-//     {
-//         return true;
-//     }
-
-//     return false;
-// }
 
 #endif // STRING_FUNCTIONS_H
