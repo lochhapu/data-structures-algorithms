@@ -5,7 +5,7 @@ A roadmap to practice Data Structures & Algorithms in C, Python, and Java.
 ---
 
 ## 1. Arrays (C & Python)  
-- [ ] C: Create, access, update, delete (static & dynamic arrays with malloc)  
+- [X] C: Create, access, update, delete (static & dynamic arrays with malloc)  
 - [ ] C: Traversal, Linear Search, Bubble Sort, Selection Sort, Insertion Sort  
 - [ ] Python: Same with lists (built-in and manual implementations)  
 
