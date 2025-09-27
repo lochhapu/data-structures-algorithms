@@ -31,7 +31,7 @@ int main(void) {
 
     printf("Dynamic array with 5 elements:\n");
     for (int i = 0; i < 5; i++) {
-        dynamic_array[i] = i * 10;
+        dynamic_array[i] = i + 10;
         printf("%i\n", dynamic_array[i]);
     }
 
@@ -43,8 +43,8 @@ int main(void) {
     }
     dynamic_array = temp;
 
-    dynamic_array[5] = 50;
-    dynamic_array[6] = 60;
+    dynamic_array[5] = 60;
+    dynamic_array[6] = 70;
 
     printf("Dynamic array with 7 elements:\n");
     for (int i = 0; i < 7; i++) {

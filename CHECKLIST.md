@@ -1,67 +1,116 @@
-# Beginner to Intermediate DSA Checklist
-
-A roadmap to practice Data Structures & Algorithms in C, Python, and Java.  
+# 📝 Data Structures & Algorithms Roadmap (C → Beginner to Intermediate)
 
 ---
 
-## 1. Arrays (C & Python)  
-- [X] C: Create, access, update, delete (static & dynamic arrays with malloc)  
-- [ ] C: Traversal, Linear Search, Bubble Sort, Selection Sort, Insertion Sort  
-- [ ] Python: Same with lists (built-in and manual implementations)  
+## Beginner Level
+
+### C Foundations
+- [ ] Understand pointers and pointer arithmetic
+- [ ] Learn dynamic memory management (`malloc`, `calloc`, `free`)
+- [ ] Practice writing custom string functions (`strlen`, `strcpy`, `strcmp`)
+
+### Complexity Analysis
+- [ ] Learn Big-O, Big-Ω, Big-Θ
+- [ ] Analyze simple algorithms (linear search, binary search, nested loops)
+
+### Arrays & Strings
+- [ ] Implement Linear Search
+- [ ] Implement Binary Search
+- [ ] Implement Bubble Sort
+- [ ] Implement Selection Sort
+- [ ] Implement Insertion Sort
+- [ ] Implement Merge Sort
+- [ ] Implement Quick Sort
+- [ ] Reverse a string in place
+- [ ] Rotate an array by k positions
+- [ ] Find maximum subarray sum (Kadane’s Algorithm)
+
+### Recursion
+- [ ] Factorial
+- [ ] Fibonacci
+- [ ] GCD (Euclidean algorithm)
+- [ ] Tower of Hanoi
+- [ ] Recursive Binary Search
+- [ ] Recursive string reversal
 
 ---
 
-## 2. Strings (C & Python)  
-- [ ] C: Length, Reverse, Palindrome, Substring search (naive) using char arrays  
-- [ ] Python: Same with string methods and manual implementations  
+## Intermediate Level
+
+### Linked Lists
+- [ ] Singly Linked List (insert, delete, traverse)
+- [ ] Doubly Linked List
+- [ ] Circular Linked List
+- [ ] Reverse a linked list (iterative & recursive)
+- [ ] Detect a loop in a linked list (Floyd’s cycle detection)
+
+### Stacks
+- [ ] Array implementation
+- [ ] Linked List implementation
+- [ ] Balanced Parentheses Checker
+- [ ] Infix → Postfix Converter
+- [ ] Postfix Expression Evaluator
+
+### Queues
+- [ ] Array-based Queue
+- [ ] Circular Queue
+- [ ] Linked List Queue
+- [ ] Deque (double-ended queue)
+- [ ] Priority Queue (basic)
+
+### Trees
+- [ ] Binary Tree traversals (inorder, preorder, postorder, level order)
+- [ ] Binary Search Tree (insert, search, delete)
+- [ ] Find height of a tree
+- [ ] Find diameter of a tree
+- [ ] Count nodes and leaves
+- [ ] Find Lowest Common Ancestor (BST)
+- [ ] Mirror a Binary Tree
+- [ ] Check if a tree is height balanced
+- [ ] Learn AVL Trees (rotations)
+
+### Hashing
+- [ ] Hash table with linear probing
+- [ ] Hash table with separate chaining
+- [ ] Implement dictionary using hashing
+
+### Graphs
+- [ ] Represent graph with adjacency list
+- [ ] Represent graph with adjacency matrix
+- [ ] Implement BFS
+- [ ] Implement DFS
+- [ ] Detect cycle in a graph
+- [ ] Count connected components
+- [ ] Dijkstra’s algorithm
+- [ ] Bellman-Ford algorithm
+- [ ] Prim’s algorithm
+- [ ] Kruskal’s algorithm
 
 ---
 
-## 3. Linked Lists (C & Java)  
-- [ ] C: Singly Linked List (all operations), Doubly, Circular (optional)  
-- [ ] Java: Singly and Doubly Linked Lists (using classes)  
+## Problem-Solving (Intermediate)
+
+### Dynamic Programming (DP)
+- [ ] Fibonacci (DP)
+- [ ] 0/1 Knapsack Problem
+- [ ] Longest Common Subsequence (LCS)
+- [ ] Longest Increasing Subsequence (LIS)
+- [ ] Minimum Coin Change Problem
+
+### Greedy Algorithms
+- [ ] Activity Selection Problem
+- [ ] Huffman Coding
+
+### Backtracking
+- [ ] N-Queens Problem
+- [ ] Rat in a Maze
+- [ ] Sudoku Solver (optional)
 
 ---
 
-## 4. Stacks (C & Java)  
-- [ ] C: Array-based and Linked List-based stacks  
-- [ ] C: Applications (parentheses matching, postfix evaluation)  
-- [ ] Java: Stacks with arrays and linked lists  
+## Roadmap Summary
+- **Beginner Level**: Arrays, Strings, Recursion, Complexity
+- **Intermediate Level**: Linked Lists, Stacks, Queues, Trees, Hashing, Graphs
+- **Problem-Solving**: DP, Greedy, Backtracking
 
----
 
-## 5. Queues (C & Java)  
-- [ ] C: Simple Queue, Circular Queue, Deque (array + linked list)  
-- [ ] Java: Queues with arrays and linked lists  
-
----
-
-## 6. Trees (C & Java)  
-- [ ] C: Binary Search Tree (insert, search, traversals, delete optional)  
-- [ ] Java: BST (object-oriented implementation)  
-
----
-
-## 7. Hashing (C & Python)  
-- [ ] C: Hash table with Separate Chaining (linked lists)  
-- [ ] Python: Dictionaries (built-in) and custom hash table (optional)  
-
----
-
-## 8. Recursion & Basic Algorithms (C & Python)  
-- [ ] Python: Factorial, Fibonacci, Towers of Hanoi, Binary Search, Merge Sort, Quick Sort  
-- [ ] C: Binary Search, Merge Sort, Quick Sort (on arrays)  
-
----
-
-# Intermediate Mastery Milestones
-
-By completing the above, I should be able to:
-
-- [ ] Implement a Dynamic Array (ArrayList) -> C (malloc) and Python (list)  
-- [ ] Implement a Linked List (Singly & Doubly) -> C and Java  
-- [ ] Implement a Stack & Queue (Array + Linked List) -> C and Java  
-- [ ] Implement a BST (insert, search, traversals) -> C and Java  
-- [ ] Code and explain Binary Search -> Python and C  
-- [ ] Code and explain Merge Sort & Quick Sort -> Python and C  
-- [ ] Understand Hashing and common Recursion problems -> C and Python  
