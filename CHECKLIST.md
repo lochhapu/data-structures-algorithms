@@ -5,25 +5,25 @@
 ## Beginner Level
 
 ### C Foundations
-- [X] Understand pointers and pointer arithmetic
-- [X] Learn dynamic memory management (`malloc`, `calloc`, `free`)
-- [ ] Practice writing custom string functions (`strlen`, `strcpy`, `strcmp`)
+- [X] Understand pointers and pointer arithmetic (`*(ptr + i) == ptr[i]`)
+- [X] Learn dynamic memory management (`malloc`, `calloc`, `realloc`, `free`)
+- [X] Practice writing custom string functions (`strlen`, `strcpy`, `streql`/`strcmp`)
 
 ### Complexity Analysis
 - [ ] Learn Big-O, Big-Ω, Big-Θ
-- [ ] Analyze simple algorithms (linear search, binary search, nested loops)
+- [ ] Analyze simple algorithms
 
-### Arrays & Strings
+### Arrays
 - [ ] Implement Linear Search
 - [ ] Implement Binary Search
 - [ ] Implement Bubble Sort
 - [ ] Implement Selection Sort
 - [ ] Implement Insertion Sort
-- [ ] Implement Merge Sort
-- [ ] Implement Quick Sort
-- [ ] Reverse a string in place
 - [ ] Rotate an array by k positions
 - [ ] Find maximum subarray sum (Kadane’s Algorithm)
+
+### Strings
+- [ ] Reverse string
 
 ### Recursion
 - [ ] Factorial
@@ -32,6 +32,8 @@
 - [ ] Tower of Hanoi
 - [ ] Recursive Binary Search
 - [ ] Recursive string reversal
+- [ ] Merge Sort
+- [ ] Quick Sort
 
 ---
 
