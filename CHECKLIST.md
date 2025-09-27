@@ -1,12 +1,12 @@
-# 📝 Data Structures & Algorithms Roadmap (C → Beginner to Intermediate)
+# Data Structures & Algorithms Roadmap (C → Beginner to Intermediate)
 
 ---
 
 ## Beginner Level
 
 ### C Foundations
-- [ ] Understand pointers and pointer arithmetic
-- [ ] Learn dynamic memory management (`malloc`, `calloc`, `free`)
+- [X] Understand pointers and pointer arithmetic
+- [X] Learn dynamic memory management (`malloc`, `calloc`, `free`)
 - [ ] Practice writing custom string functions (`strlen`, `strcpy`, `strcmp`)
 
 ### Complexity Analysis
