@@ -7,7 +7,6 @@
 ### C Foundations
 - [X] Understand pointers and pointer arithmetic (`*(ptr + i) == ptr[i]`)
 - [X] Learn dynamic memory management (`malloc`, `calloc`, `realloc`, `free`)
-- [X] Practice writing custom string functions (`strlen`, `strcpy`, `streql`/`strcmp`)
 
 ### Complexity Analysis
 - [ ] Learn Big-O, Big-Ω, Big-Θ
@@ -23,7 +22,14 @@
 - [ ] Find maximum subarray sum (Kadane’s Algorithm)
 
 ### Strings
+- [ ] Dynamic string allocator
+- [ ] String length `strlen`
+- [ ] String comparison `strcmp`
+- [ ] String copy `strcpy`
 - [ ] Reverse string
+- [ ] Palindrome check
+- [ ] Anagram check
+- [ ] Buffer overflow attack
 
 ### Recursion
 - [ ] Factorial
@@ -32,8 +38,8 @@
 - [ ] Tower of Hanoi
 - [ ] Recursive Binary Search
 - [ ] Recursive string reversal
-- [ ] Merge Sort
-- [ ] Quick Sort
+- [ ] Implement Merge Sort
+- [ ] Implement Quick Sort
 
 ---
 
