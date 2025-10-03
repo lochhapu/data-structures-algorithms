@@ -1,7 +1,5 @@
 # Data Structures & Algorithms Roadmap (C → Beginner to Intermediate)
 
----
-
 ## Beginner Level
 
 ### C Foundations
