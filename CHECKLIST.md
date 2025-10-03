@@ -11,6 +11,7 @@
 - [ ] Analyze simple algorithms
 
 ### Arrays
+- [ ] Implement heap array
 - [ ] Implement Linear Search
 - [ ] Implement Binary Search
 - [ ] Implement Bubble Sort
@@ -18,6 +19,7 @@
 - [ ] Implement Insertion Sort
 - [ ] Rotate an array by k positions
 - [ ] Find maximum subarray sum (Kadane’s Algorithm)
+- [ ] Learn about multidimensional array
 
 ### Strings
 - [ ] Dynamic string allocator
