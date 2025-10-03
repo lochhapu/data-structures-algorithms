@@ -67,8 +67,8 @@
 - [ ] Priority Queue (basic)
 
 ### Trees
-- [ ] Binary Tree traversals (inorder, preorder, postorder, level order)
 - [ ] Binary Search Tree (insert, search, delete)
+- [ ] Binary Tree traversals (inorder, preorder, postorder, level order)
 - [ ] Find height of a tree
 - [ ] Find diameter of a tree
 - [ ] Count nodes and leaves
